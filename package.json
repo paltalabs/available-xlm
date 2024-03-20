@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "transferAll": "clear && node scripts/transferAllXlm.js",
-    "transferAllMinus2": "clear && node scripts/transferAllMinus2Xlm.js",
-    "setKTrustlines": "clear && node scripts/setKTrustlines.js"
+    "transferAllMinus2": "clear && node scripts/transferMaxAmount.js",
+    "setTrustlines": "clear && node scripts/setTrustlines.js"
   },
   "dependencies": {
     "node": "^21.7.1",

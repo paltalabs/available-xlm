@@ -1,0 +1,17 @@
+{
+  "name": "available-xlm",
+  "version": "1.0.0",
+  "main": "scripts/testTransaction.js",
+  "repository": "https://github.com/paltalabs/available-xlm",
+  "author": "Benjamin Guiloff <byguiloff@uc.cl>",
+  "license": "MIT",
+  "scripts": {
+    "transferAll": "clear && node scripts/transferAllXlm.js",
+    "transferAllMinus2": "clear && node scripts/transferAllMinus2Xlm.js",
+    "setKTrustlines": "clear && node scripts/setKTrustlines.js"
+  },
+  "dependencies": {
+    "node": "^21.7.1",
+    "stellar-sdk": "^11.2.2"
+  }
+}
